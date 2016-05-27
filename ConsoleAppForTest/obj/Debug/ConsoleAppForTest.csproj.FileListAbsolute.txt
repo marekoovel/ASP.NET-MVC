@@ -1,0 +1,16 @@
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\obj\Debug\ConsoleAppForTest.csprojResolveAssemblyReference.cache
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\ConsoleAppForTest.exe.config
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\ConsoleAppForTest.exe
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\ConsoleAppForTest.pdb
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\EntityFramework.dll
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\IGBT_DAL.dll
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\Ninject.dll
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\Domain.dll
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\IGBT_DAL.pdb
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\EntityFramework.xml
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\Ninject.xml
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\bin\Debug\Domain.pdb
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\obj\Debug\ConsoleAppForTest.exe
+C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\ConsoleAppForTest\obj\Debug\ConsoleAppForTest.pdb

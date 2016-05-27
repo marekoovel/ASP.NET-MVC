@@ -1,0 +1,101 @@
+﻿@using System.Threading
+@{
+    var titleTag = Resources.Common.ApplicationName;
+
+    // set up global js variable, to hold culture code
+    // it is later used for globalize, cldr and moment
+    var currentCultureCode = "root";
+    var culture = System.Threading.Thread.CurrentThread.CurrentUICulture.Name.ToLowerInvariant();
+    switch (Thread.CurrentThread.CurrentCulture.ToString())
+    {
+        case "et-EE":
+            currentCultureCode = "et";
+            break;
+        case "en-US":
+            currentCultureCode = "en";
+            break;
+        default:
+            currentCultureCode = Thread.CurrentThread.CurrentCulture.ToString();
+            break;
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@titleTag</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="~/Scripts/jquery-2.2.3.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var currentCultureCode = '@currentCultureCode';
+    </script>
+    @RenderSection("headerscripts", required: false)
+</head>
+<body>
+    <div id="header">
+        <h1><a href="/">@Resources.Common.ApplicationNameCapital</a></h1>
+        <a class="eesti" href="#"><img alt="eesti" src="~/Content/Images/ee.png"></a>
+        <a class="english" href="#"><img alt="enUS" src="~/Content/Images/us.png"></a>
+        <ul id="navlist">
+            <li class="first"><a href="@Url.Content("~")" id="current">@Resources.Common.Home</a></li>
+            <li><a href="@Url.Content("~/Store/")">@Resources.Common.Store</a></li>
+            <li>@{Html.RenderAction("CartSummary", "ShoppingCart");}</li>
+            <li><a href="@Url.Content("~/StoreManager/")">@Resources.Common.Admin</a></li>
+        </ul>
+    </div>
+    @{Html.RenderAction("GenreMenu", "Store");}
+    <div id="main">
+        @RenderBody()
+    </div>
+
+            <div id="footer">
+                <p>
+                    &copy; @DateTime.Now.Year - @Resources.Common.ApplicationName
+                    (Culture:<b>@Culture</b> UICulture:<b>@UICulture</b>)
+                </p>
+            </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/cldr")
+        @Scripts.Render("~/bundles/globalize")
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/bundles/moment")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/Scripts/tinymce/tinymce.min.js")
+        @Scripts.Render("~/bundles/app")
+
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        $(".eesti").click(function () {
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("SetCulture", "Home")",
+                data: {
+                    culture:"et-EE"
+                },
+                success: function () {
+                    window.location.reload(true);
+                }
+        });
+        });
+
+        $(".english").click(function () {
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("SetCulture", "Home")",
+                data: {
+                culture:"en-US"
+                },
+                success: function() {
+                    window.location.reload(true);
+                }
+        });
+    });
+    });
+</script>

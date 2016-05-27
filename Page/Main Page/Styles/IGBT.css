@@ -1,0 +1,66 @@
+﻿
+div.header{
+	position:relative;
+	text-align: center;
+	height: 20%;
+	margin: 10px;
+}
+div.titel{
+	text-align: center;
+	font-size: 100px;
+}
+
+div.date{
+	text-align: center;
+	font-size: 40px;
+}
+
+div.contents{
+	margin: 10px;
+	height: 70%;
+}
+
+div.left_contents{
+	float: left;
+	width: 49%;
+    height: 90%;
+}
+
+div.right_contents{
+	float: right;
+	width: 49%;
+	height: 90%;
+}
+
+div.igbt_type{
+ font-size: 80px;
+ text-align: center;
+ height: 20%;
+}
+
+div.data{
+	float:left;
+	width : 50%;
+	text-align: center;
+	font-size: 60px;
+}
+div.light{
+    margin-top: 5%;
+	width: 20%;
+	float: left;
+}
+
+img.IGBT_image {
+    height: 250px;
+}
+div.fulldata {
+    height: 79%;
+    margin-left: 20%;
+
+}
+
+div.note
+{
+    text-align:center;
+    font-size:200%;
+}

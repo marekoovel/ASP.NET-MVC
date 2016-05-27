@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IGBT880Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Barcode_read_status">
+    <Key>
+      <PropertyRef Name="TestId" />
+    </Key>
+    <Property Name="TestId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AGDR_IGBT_Barcode" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AGDR_Barcode" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="IGBT_Barcode" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SAP_user_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SAP_file_saving_time" Type="DateTime" Precision="3" />
+    <Property Name="AGDR_IGBT_MRP" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Last_Modified" Type="DateTime" Precision="3" />
+    <Property Name="Test_Sequency" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Approval" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Where_used" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Results">
+    <Key>
+      <PropertyRef Name="TestId" />
+    </Key>
+    <Property Name="TestId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Approval" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IGBT_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AGDR_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IGBT_barcode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AGDR_barcode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tester_saving_time" Type="String" MaxLength="19" FixedLength="false" Unicode="false" />
+    <Property Name="IGBT_up_diode_lowPeak_min_branch1" Type="Double" />
+    <Property Name="IGBT_up_diode_lowPeak_min_branch2" Type="Double" />
+    <Property Name="IGBT_up_diode_lowPeak_min_branch3" Type="Double" />
+    <Property Name="IGBT_up_diode_lowPeak_max_branch1" Type="Double" />
+    <Property Name="IGBT_up_diode_lowPeak_max_branch2" Type="Double" />
+    <Property Name="IGBT_up_diode_lowPeak_max_branch3" Type="Double" />
+    <Property Name="IGBT_low_diode_upPeak_min_branch1" Type="Double" />
+    <Property Name="IGBT_low_diode_upPeak_min_branch2" Type="Double" />
+    <Property Name="IGBT_low_diode_upPeak_min_branch3" Type="Double" />
+    <Property Name="IGBT_low_diode_upPeak_max_branch1" Type="Double" />
+    <Property Name="IGBT_low_diode_upPeak_max_branch2" Type="Double" />
+    <Property Name="IGBT_low_diode_upPeak_max_branch3" Type="Double" />
+    <Property Name="IGBT_low_branch1" Type="Double" />
+    <Property Name="IGBT_low_branch2" Type="Double" />
+    <Property Name="IGBT_low_branch3" Type="Double" />
+    <Property Name="diode_up_branch1" Type="Double" />
+    <Property Name="diode_up_branch2" Type="Double" />
+    <Property Name="diode_up_branch3" Type="Double" />
+    <Property Name="IGBT_up_branch1" Type="Double" />
+    <Property Name="IGBT_up_branch2" Type="Double" />
+    <Property Name="IGBT_up_branch3" Type="Double" />
+    <Property Name="diode_low_branch1" Type="Double" />
+    <Property Name="diode_low_branch2" Type="Double" />
+    <Property Name="diode_low_branch3" Type="Double" />
+    <Property Name="Vce_IGBT_up" Type="Double" />
+    <Property Name="Vf_diode_up" Type="Double" />
+    <Property Name="Vce_IGBT_low" Type="Double" />
+    <Property Name="Vf_diode_low" Type="Double" />
+    <Property Name="Temp_ref_1" Type="Double" />
+    <Property Name="Temp_ref_2" Type="Double" />
+    <Property Name="IGBT_Temp" Type="Double" />
+    <Property Name="Approval_limit_R8_MIN" Type="Double" />
+    <Property Name="Approval_limit_R8_MAX" Type="Double" />
+    <Property Name="Approval_limit_R8_diff_min" Type="Double" />
+    <Property Name="Approval_limit_R8_diff_max" Type="Double" />
+    <Property Name="Approval_limit_R7_MIN" Type="Double" />
+    <Property Name="Approval_limit_R7_MAX" Type="Double" />
+    <Property Name="Approval_limit_R7_diff_min" Type="Double" />
+    <Property Name="Approval_limit_R7_diff_max" Type="Double" />
+    <Property Name="User_comment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Tester_user_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IGBT_AGDR_SAP_barcode" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SAP_user_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SAP_file_saving_time" Type="DateTime" Precision="3" />
+    <Property Name="Where_used" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="DC_voltage" Type="Double" />
+    <Property Name="up_meas_Iave_t1" Type="Double" />
+    <Property Name="up_meas_Iave_t2" Type="Double" />
+    <Property Name="low_meas_Iave_t1" Type="Double" />
+    <Property Name="low_meas_Iave_t2" Type="Double" />
+    <Property Name="zip_file_location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tester_PC_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DC_trigger_voltage" Type="Double" />
+    <Property Name="Current_limit_min_t1" Type="Double" />
+    <Property Name="Current_limit_min_t2" Type="Double" />
+    <Property Name="Temperature_limit_min" Type="Double" />
+    <Property Name="Temperature_limit_max" Type="Double" />
+    <Property Name="Scope_triggering_wait_time" Type="Double" />
+    <Property Name="Measuring_time_t1" Type="Double" />
+    <Property Name="Measuring_time_t2" Type="Double" />
+    <Property Name="Date_modified" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="AGDR_IGBT_limits">
+    <Key>
+      <PropertyRef Name="limit_id" />
+    </Key>
+    <Property Name="AGDR_IGBT_MRP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IGBT_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AGDR_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Approval_limit_R8_MIN" Type="Double" />
+    <Property Name="Approval_limit_R8_MAX" Type="Double" />
+    <Property Name="Approval_limit_R8_diff_min" Type="Double" />
+    <Property Name="Approval_limit_R8_diff_max" Type="Double" />
+    <Property Name="R8_comment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Approval_limit_R7_MIN" Type="Double" />
+    <Property Name="Approval_limit_R7_MAX" Type="Double" />
+    <Property Name="Approval_limit_R7_diff_min" Type="Double" />
+    <Property Name="Approval_limit_R7_diff_max" Type="Double" />
+    <Property Name="R7_kommentti" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="limit_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Tester_limits">
+    <Key>
+      <PropertyRef Name="Temperature_limit_min" />
+      <PropertyRef Name="Temperature_limit_max" />
+      <PropertyRef Name="Current_limit_min_t1" />
+      <PropertyRef Name="Current_limit_min_t2" />
+      <PropertyRef Name="t1" />
+      <PropertyRef Name="t2" />
+      <PropertyRef Name="Trigger_wait_time" />
+      <PropertyRef Name="DC_trigger_voltage" />
+      <PropertyRef Name="I_const" />
+      <PropertyRef Name="up_scale" />
+      <PropertyRef Name="u_up_offset" />
+      <PropertyRef Name="low_scale" />
+      <PropertyRef Name="u_low_offset" />
+      <PropertyRef Name="par_199_03" />
+      <PropertyRef Name="par_199_04" />
+      <PropertyRef Name="par_199_05" />
+      <PropertyRef Name="par_199_06" />
+      <PropertyRef Name="par_199_07" />
+    </Key>
+    <Property Name="Temperature_limit_min" Type="Double" Nullable="false" />
+    <Property Name="Temperature_limit_max" Type="Double" Nullable="false" />
+    <Property Name="Current_limit_min_t1" Type="Double" Nullable="false" />
+    <Property Name="Current_limit_min_t2" Type="Double" Nullable="false" />
+    <Property Name="t1" Type="Double" Nullable="false" />
+    <Property Name="t2" Type="Double" Nullable="false" />
+    <Property Name="Trigger_wait_time" Type="Double" Nullable="false" />
+    <Property Name="DC_trigger_voltage" Type="Double" Nullable="false" />
+    <Property Name="I_const" Type="Double" Nullable="false" />
+    <Property Name="up_scale" Type="Double" Nullable="false" />
+    <Property Name="u_up_offset" Type="Double" Nullable="false" />
+    <Property Name="low_scale" Type="Double" Nullable="false" />
+    <Property Name="u_low_offset" Type="Double" Nullable="false" />
+    <Property Name="par_199_03" Type="Double" Nullable="false" />
+    <Property Name="par_199_04" Type="Double" Nullable="false" />
+    <Property Name="par_199_05" Type="Double" Nullable="false" />
+    <Property Name="par_199_06" Type="Double" Nullable="false" />
+    <Property Name="par_199_07" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User_list">
+    <Key>
+      <PropertyRef Name="Tester_user_ID" />
+      <PropertyRef Name="Full_name" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="Tester_user_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Full_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="IGBT880Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Barcode_read_status" EntityType="Self.Barcode_read_status" />
+    <EntitySet Name="Results" EntityType="Self.Results" />
+    <EntitySet Name="AGDR_IGBT_limits" EntityType="Self.AGDR_IGBT_limits" />
+    <EntitySet Name="Tester_limits" EntityType="Self.Tester_limits" />
+    <EntitySet Name="User_list" EntityType="Self.User_list" />
+  </EntityContainer>
+</Schema>

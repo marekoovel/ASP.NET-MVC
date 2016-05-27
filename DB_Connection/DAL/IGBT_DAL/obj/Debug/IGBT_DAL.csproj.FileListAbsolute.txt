@@ -1,0 +1,10 @@
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\bin\Debug\IGBT_DAL.dll.config
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\bin\Debug\IGBT_DAL.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\bin\Debug\IGBT_DAL.pdb
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\bin\Debug\EntityFramework.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\bin\Debug\EntityFramework.xml
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\obj\Debug\IGBT_DAL.csprojResolveAssemblyReference.cache
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\obj\Debug\IGBT_DAL.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\DB_Connection\DAL\IGBT_DAL\obj\Debug\IGBT_DAL.pdb

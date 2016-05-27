@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IGBTModelStoreContainer" CdmEntityContainer="IGBTEntities">
+    <EntitySetMapping Name="Barcode_read_status">
+      <EntityTypeMapping TypeName="IGBTModel.Barcode_read_status">
+        <MappingFragment StoreEntitySet="Barcode_read_status">
+          <ScalarProperty Name="TestId" ColumnName="TestId" />
+          <ScalarProperty Name="AGDR_IGBT_Barcode" ColumnName="AGDR_IGBT_Barcode" />
+          <ScalarProperty Name="AGDR_Barcode" ColumnName="AGDR_Barcode" />
+          <ScalarProperty Name="IGBT_Barcode" ColumnName="IGBT_Barcode" />
+          <ScalarProperty Name="SAP_user_ID" ColumnName="SAP_user_ID" />
+          <ScalarProperty Name="SAP_file_saving_time" ColumnName="SAP_file_saving_time" />
+          <ScalarProperty Name="AGDR_IGBT_MRP" ColumnName="AGDR_IGBT_MRP" />
+          <ScalarProperty Name="Last_Modified" ColumnName="Last_Modified" />
+          <ScalarProperty Name="Test_Sequency" ColumnName="Test_Sequency" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Approval" ColumnName="Approval" />
+          <ScalarProperty Name="Where_used" ColumnName="Where_used" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Results">
+      <EntityTypeMapping TypeName="IGBTModel.Results">
+        <MappingFragment StoreEntitySet="Results">
+          <ScalarProperty Name="TestId" ColumnName="TestId" />
+          <ScalarProperty Name="Approval" ColumnName="Approval" />
+          <ScalarProperty Name="IGBT_type" ColumnName="IGBT_type" />
+          <ScalarProperty Name="AGDR_type" ColumnName="AGDR_type" />
+          <ScalarProperty Name="IGBT_barcode" ColumnName="IGBT_barcode" />
+          <ScalarProperty Name="AGDR_barcode" ColumnName="AGDR_barcode" />
+          <ScalarProperty Name="Tester_saving_time" ColumnName="Tester_saving_time" />
+          <ScalarProperty Name="IGBT_up_diode_lowPeak_min_branch1" ColumnName="IGBT_up_diode_lowPeak_min_branch1" />
+          <ScalarProperty Name="IGBT_up_diode_lowPeak_min_branch2" ColumnName="IGBT_up_diode_lowPeak_min_branch2" />
+          <ScalarProperty Name="IGBT_up_diode_lowPeak_min_branch3" ColumnName="IGBT_up_diode_lowPeak_min_branch3" />
+          <ScalarProperty Name="IGBT_up_diode_lowPeak_max_branch1" ColumnName="IGBT_up_diode_lowPeak_max_branch1" />
+          <ScalarProperty Name="IGBT_up_diode_lowPeak_max_branch2" ColumnName="IGBT_up_diode_lowPeak_max_branch2" />
+          <ScalarProperty Name="IGBT_up_diode_lowPeak_max_branch3" ColumnName="IGBT_up_diode_lowPeak_max_branch3" />
+          <ScalarProperty Name="IGBT_low_diode_upPeak_min_branch1" ColumnName="IGBT_low_diode_upPeak_min_branch1" />
+          <ScalarProperty Name="IGBT_low_diode_upPeak_min_branch2" ColumnName="IGBT_low_diode_upPeak_min_branch2" />
+          <ScalarProperty Name="IGBT_low_diode_upPeak_min_branch3" ColumnName="IGBT_low_diode_upPeak_min_branch3" />
+          <ScalarProperty Name="IGBT_low_diode_upPeak_max_branch1" ColumnName="IGBT_low_diode_upPeak_max_branch1" />
+          <ScalarProperty Name="IGBT_low_diode_upPeak_max_branch2" ColumnName="IGBT_low_diode_upPeak_max_branch2" />
+          <ScalarProperty Name="IGBT_low_diode_upPeak_max_branch3" ColumnName="IGBT_low_diode_upPeak_max_branch3" />
+          <ScalarProperty Name="IGBT_low_branch1" ColumnName="IGBT_low_branch1" />
+          <ScalarProperty Name="IGBT_low_branch2" ColumnName="IGBT_low_branch2" />
+          <ScalarProperty Name="IGBT_low_branch3" ColumnName="IGBT_low_branch3" />
+          <ScalarProperty Name="diode_up_branch1" ColumnName="diode_up_branch1" />
+          <ScalarProperty Name="diode_up_branch2" ColumnName="diode_up_branch2" />
+          <ScalarProperty Name="diode_up_branch3" ColumnName="diode_up_branch3" />
+          <ScalarProperty Name="IGBT_up_branch1" ColumnName="IGBT_up_branch1" />
+          <ScalarProperty Name="IGBT_up_branch2" ColumnName="IGBT_up_branch2" />
+          <ScalarProperty Name="IGBT_up_branch3" ColumnName="IGBT_up_branch3" />
+          <ScalarProperty Name="diode_low_branch1" ColumnName="diode_low_branch1" />
+          <ScalarProperty Name="diode_low_branch2" ColumnName="diode_low_branch2" />
+          <ScalarProperty Name="diode_low_branch3" ColumnName="diode_low_branch3" />
+          <ScalarProperty Name="Vce_IGBT_up" ColumnName="Vce_IGBT_up" />
+          <ScalarProperty Name="Vf_diode_up" ColumnName="Vf_diode_up" />
+          <ScalarProperty Name="Vce_IGBT_low" ColumnName="Vce_IGBT_low" />
+          <ScalarProperty Name="Vf_diode_low" ColumnName="Vf_diode_low" />
+          <ScalarProperty Name="Temp_ref_1" ColumnName="Temp_ref_1" />
+          <ScalarProperty Name="Temp_ref_2" ColumnName="Temp_ref_2" />
+          <ScalarProperty Name="IGBT_Temp" ColumnName="IGBT_Temp" />
+          <ScalarProperty Name="Approval_limit_R8_MIN" ColumnName="Approval_limit_R8_MIN" />
+          <ScalarProperty Name="Approval_limit_R8_MAX" ColumnName="Approval_limit_R8_MAX" />
+          <ScalarProperty Name="Approval_limit_R8_diff_min" ColumnName="Approval_limit_R8_diff_min" />
+          <ScalarProperty Name="Approval_limit_R8_diff_max" ColumnName="Approval_limit_R8_diff_max" />
+          <ScalarProperty Name="Approval_limit_R7_MIN" ColumnName="Approval_limit_R7_MIN" />
+          <ScalarProperty Name="Approval_limit_R7_MAX" ColumnName="Approval_limit_R7_MAX" />
+          <ScalarProperty Name="Approval_limit_R7_diff_min" ColumnName="Approval_limit_R7_diff_min" />
+          <ScalarProperty Name="Approval_limit_R7_diff_max" ColumnName="Approval_limit_R7_diff_max" />
+          <ScalarProperty Name="User_comment" ColumnName="User_comment" />
+          <ScalarProperty Name="Tester_user_ID" ColumnName="Tester_user_ID" />
+          <ScalarProperty Name="IGBT_AGDR_SAP_barcode" ColumnName="IGBT_AGDR_SAP_barcode" />
+          <ScalarProperty Name="SAP_user_ID" ColumnName="SAP_user_ID" />
+          <ScalarProperty Name="SAP_file_saving_time" ColumnName="SAP_file_saving_time" />
+          <ScalarProperty Name="Where_used" ColumnName="Where_used" />
+          <ScalarProperty Name="DC_voltage" ColumnName="DC_voltage" />
+          <ScalarProperty Name="up_meas_Iave_t1" ColumnName="up_meas_Iave_t1" />
+          <ScalarProperty Name="up_meas_Iave_t2" ColumnName="up_meas_Iave_t2" />
+          <ScalarProperty Name="low_meas_Iave_t1" ColumnName="low_meas_Iave_t1" />
+          <ScalarProperty Name="low_meas_Iave_t2" ColumnName="low_meas_Iave_t2" />
+          <ScalarProperty Name="zip_file_location" ColumnName="zip_file_location" />
+          <ScalarProperty Name="Tester_PC_name" ColumnName="Tester_PC_name" />
+          <ScalarProperty Name="DC_trigger_voltage" ColumnName="DC_trigger_voltage" />
+          <ScalarProperty Name="Current_limit_min_t1" ColumnName="Current_limit_min_t1" />
+          <ScalarProperty Name="Current_limit_min_t2" ColumnName="Current_limit_min_t2" />
+          <ScalarProperty Name="Temperature_limit_min" ColumnName="Temperature_limit_min" />
+          <ScalarProperty Name="Temperature_limit_max" ColumnName="Temperature_limit_max" />
+          <ScalarProperty Name="Scope_triggering_wait_time" ColumnName="Scope_triggering_wait_time" />
+          <ScalarProperty Name="Measuring_time_t1" ColumnName="Measuring_time_t1" />
+          <ScalarProperty Name="Measuring_time_t2" ColumnName="Measuring_time_t2" />
+          <ScalarProperty Name="Date_modified" ColumnName="Date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,15 @@
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\IGBT_BLL.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\IGBT_BLL.pdb
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\IGBT880_DAL.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\IGBT_DAL.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\Ninject.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\Ninject.Web.Common.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\EntityFramework.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\IGBT880_DAL.pdb
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\IGBT_DAL.pdb
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\Ninject.xml
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\Ninject.Web.Common.xml
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\bin\Debug\EntityFramework.xml
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\obj\Debug\IGBT_BLL.csprojResolveAssemblyReference.cache
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\obj\Debug\IGBT_BLL.dll
+C:\Users\eemaoov\Desktop\Chronos\EEDRWEBGit\EEDRWeb\IGBT_BLL\obj\Debug\IGBT_BLL.pdb
