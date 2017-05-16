@@ -189,10 +189,10 @@ C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Main Page.dll.confi
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Main Page.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Main Page.pdb
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Antlr3.Runtime.dll
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\DAL.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Domain.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\EntityFramework.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\EntityFramework.SqlServer.dll
-C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\IGBT_DAL.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Newtonsoft.Json.dll
@@ -212,7 +212,7 @@ C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\System.Web.WebPages
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\System.Web.WebPages.Razor.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\WebActivatorEx.dll
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\WebGrease.dll
-C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\IGBT_DAL.pdb
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\DAL.pdb
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Domain.pdb
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\Resources.pdb
 C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Page\Main Page\bin\EntityFramework.xml

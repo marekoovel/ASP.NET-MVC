@@ -8,3 +8,13 @@ C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\Domain\bin\Debug\EntityFramew
 C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\Domain\obj\Debug\Domain.dll
 C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\Domain\obj\Debug\Domain.pdb
 C:\Users\eemaoov\Desktop\Kool\EEMusicStore\EEDRWeb\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\bin\Debug\Domain.dll.config
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\bin\Debug\Domain.dll
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\bin\Debug\Domain.pdb
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\bin\Debug\EntityFramework.dll
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\bin\Debug\EntityFramework.xml
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\obj\Debug\Domain.dll
+C:\Users\eemaoov\Desktop\Kool\ASP.NET-MVC\Domain\obj\Debug\Domain.pdb

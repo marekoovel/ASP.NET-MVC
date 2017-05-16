@@ -254,8 +254,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DB_Connection\DAL\IGBT_DAL\DAL.csproj">
-      <Project>{342f6422-48c1-460f-a973-ac4f5a72af58}</Project>
+    <ProjectReference Include="..\..\DAL\DAL.csproj">
+      <Project>{59eb87b9-0f45-4d8c-bf58-f0e3f13e8795}</Project>
       <Name>DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Domain\Domain.csproj">
